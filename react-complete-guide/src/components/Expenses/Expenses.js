@@ -3,6 +3,7 @@ import ExpenseItem from './ExpenseItem';
 import Card from '../UI/Card';
 
 // I always return the HTML code to be rendered in the component js files.
+//Everything inbetween <Card className = "expenses"> and </Card> is stored as a children of the props of Card component
 function Expenses(props) {
 	let expenses = props.items;
 	return (

@@ -28,6 +28,7 @@ function App() {
 		},
 	];
 
+	//Curly braces means I am passing dynamically
 	return (
 		<div>
 			<h2>Let us get started</h2>
