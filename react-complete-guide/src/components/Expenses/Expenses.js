@@ -1,6 +1,6 @@
 import './Expenses.css';
 import ExpenseItem from './ExpenseItem';
-import Card from './Card';
+import Card from '../UI/Card';
 
 // I always return the HTML code to be rendered in the component js files.
 function Expenses(props) {
